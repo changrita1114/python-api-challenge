@@ -10,13 +10,13 @@ There were two parts of this project.
 #### Part I - WeatherPy
 A Python script was created to visualize the weather of over 500 cities across the world of varying distance from the equator. To accomplish this, a simple Python library([citipy](https://pypi.org/project/citipy/)) and the OpenWeatherMap API were used.
 
-First requirement was to create a series of scatter plots to showcase the following relationships:
+First was to create a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitud
 
-Second requirement was to run linear regression on each relationship. Data was separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+Second was to run linear regression on each relationship. Data was separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 * Northern Hemisphere - Temperature (F) vs. Latitude
 * Southern Hemisphere - Temperature (F) vs. Latitude
 * Northern Hemisphere - Humidity (%) vs. Latitude
@@ -33,12 +33,12 @@ Final Jupyter notebook:
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 #### Results
-As expected, the weather becomes siginigicantly warmer as one approaches to the equator. Humidity, cloudiness and wind speed are not related to latitude changes.
+As expected, the weather becomes siginigicantly warmer as one approaches the equator. Humidity, cloudiness and wind speed are not related to latitude changes.
 Please find out more information in the [visualization website](https://changrita1114.github.io/Web-Design-Challenge/).
 #### Part II - VacationPy 
 Jupyter-gmaps and the Google Places API were used for working with weather data to plan future vacations.
 
-* A heat map was created that displays the humidity for every city from the part I of the project.
+* A heat map was created that displays the humidity for every city from part I of the project.
 ![alt heatmap](https://github.com/changrita1114/python-api-challenge/blob/master/WeatherPy/13_heatmap_01.png)
 * The DataFrame was narrowed down to find my ideal weather condition. For example:
     * A max temperature lower than 80 degrees but higher than 75.
@@ -46,7 +46,7 @@ Jupyter-gmaps and the Google Places API were used for working with weather data 
     * Zero cloudiness.
     * Drop any rows that don't contain all three conditions.
 * Google Places API was used to find the first hotel for each city located within 5000 meters of the selected coordinates.
-* The hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country were ploted.
+* The hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country were plotted.
 ![alt heatmap](https://github.com/changrita1114/python-api-challenge/blob/master/WeatherPy/14_heatmap_02.png)
 
 ### Disclaimer
