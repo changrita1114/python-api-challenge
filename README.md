@@ -12,19 +12,43 @@ A Python script was created to visualize the weather of over 500 cities across t
 
 First was to create a series of scatter plots to showcase the following relationships:
 * Temperature (F) vs. Latitude
+
+![01](WeatherPy/01_Latitude%20vs.%20Temperature%20Plot.png?raw=true)
 * Humidity (%) vs. Latitude
+
+![02](WeatherPy/02_Latitude%20vs.%20Humidity%20Plot.png?raw=true)
 * Cloudiness (%) vs. Latitude
+
+![03](WeatherPy/03_Latitude%20vs.%20Cloudiness%20Plot.png?raw=true)
 * Wind Speed (mph) vs. Latitud
+
+![04](WeatherPy/04_Latitude%20vs.%20Wind%20Speed%20Plot.png?raw=true)
 
 Second was to run linear regression on each relationship. Data was separated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 * Northern Hemisphere - Temperature (F) vs. Latitude
+
+![05](WeatherPy/05_Northern%20Hemisphere%20-%20Max%20Temp%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Southern Hemisphere - Temperature (F) vs. Latitude
+
+![06](WeatherPy/06_Southern%20Hemisphere%20-%20Max%20Temp%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Northern Hemisphere - Humidity (%) vs. Latitude
+
+![07](WeatherPy/07_Northern%20Hemisphere%20-%20Humidity%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Southern Hemisphere - Humidity (%) vs. Latitude
+
+![08](WeatherPy/08_Southern%20Hemisphere%20-%20Humidity%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Northern Hemisphere - Cloudiness (%) vs. Latitude
+
+![09](WeatherPy/09_Northern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
+
+![10](WeatherPy/10_Southern%20Hemisphere%20-%20Cloudiness%20(%25)%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
+
+![11](WeatherPy/11_Northern%20Hemisphere%20-%20Wind%20Speed%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
+![12](WeatherPy/12_Southern%20Hemisphere%20-%20Wind%20Speed%20vs.%20Latitude%20Linear%20Regression.png?raw=true)
 
 Final Jupyter notebook:
 * Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
